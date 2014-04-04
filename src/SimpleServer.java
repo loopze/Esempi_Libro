@@ -15,7 +15,7 @@ public class SimpleServer {
 				Socket s1 = s.accept();
 				OutputStream s1out = s1.getOutputStream();
 				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s1out));
-				bw.write("Ciao client sono il server! in git");
+				bw.write("Ciao client sono il server! git creato");
 				System.out.println("Messaggio spedito a " + s1.getInetAddress()); 
 				bw.close();
 				s1.close(); 
