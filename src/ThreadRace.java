@@ -18,6 +18,7 @@ public class ThreadRace {
 		System.out.println(lo.getClick()+" vs." + hi.getClick());
 		
 	
+	
 	}
 	
 }
